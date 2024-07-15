@@ -8,6 +8,16 @@
 
     <v-row>
       <v-col>
+        <v-alert type="info" variant="tonal">
+          This tool is in early stages of development :
+          if you encounter any issue (or feature requests), please
+          <a href="https://github.com/oxypomme/makeplace-tc-importer/issues" target="_blank" rel="noopener noreferrer">open an issue</a>.
+        </v-alert>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
         <v-card title="Choose or drop file">
           <template #text>
             <p>
@@ -73,7 +83,7 @@
             <div>
               <h2>About</h2>
               <p>
-                <b>MakePlace TC Importer</b> par <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
+                <b>MakePlace TC Importer</b> by <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
               </p>
             </div>
 
@@ -82,7 +92,7 @@
               <p>
                 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
                 FINAL FANTASY XIV © 2010 - 2019 SQUARE ENIX CO., LTD. All Rights Reserved.<br />
-                FFXIV Teamcraft is not affiliated with Square Enix.
+                FFXIV Teamcraft and MakePlace are not affiliated with Square Enix.
               </p>
             </div>
 
