@@ -126,6 +126,12 @@ import type { ParsedList } from '~/server/lib/makeplace';
 
 useHead({
   title: 'MakePlace TC Importer',
+  meta: [
+    { property: 'og:title', content: 'MakePlace TC Importer' },
+    { property: 'og:type', content: 'Website' },
+    { property: 'og:description', content: 'Import a Makeplace JSON file to import your items into Teamcraft list.' },
+    { property: 'og:url', content: 'https://mptc.oxypomme.fr' },
+  ],
 });
 
 type UploadResult = {
