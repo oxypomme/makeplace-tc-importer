@@ -69,7 +69,7 @@ type ParsedItem = {
 
 type ParsedListItem = {
   item: ParsedItem;
-  type: 'exterior-furniture' | 'exterior-fixture' | 'interior-furniture' | 'interior-fixture';
+  type: 'exterior-furniture' | 'exterior-fixture' | 'interior-furniture' | 'interior-fixture' | 'material';
   qte: number;
 };
 
@@ -159,7 +159,7 @@ export function parseSchema(schema: MakePlaceSchema) {
     }
 
     if (furniture.properties?.material?.itemId) {
-      addItem(furniture.properties.material, type);
+      addItem(furniture.properties.material, 'material');
     }
 
     if (furniture.properties?.color) {

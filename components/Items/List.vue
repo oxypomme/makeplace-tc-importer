@@ -22,7 +22,7 @@ import type { ParsedList } from '~/server/lib/makeplace';
 
 defineProps<{
   items: ParsedList
-  itemsPerPage?: number
+  itemsPerPage?: number | string
 }>();
 
 const headers = computed(() => [

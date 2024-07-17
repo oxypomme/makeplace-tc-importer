@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
-        <h1>MakePlace TC Importer</h1>
+        <h1>MakePlace Teamcraft Importer</h1>
       </v-col>
     </v-row>
 
@@ -87,7 +87,7 @@
                 </tr>
               </thead>
               <tbody>
-                <template v-for="[type, label] in typeMap">
+                <template v-for="[type, label] in typeHeaderMap">
                   <tr
                     v-if="totalItems[type]"
                     :key="type"
@@ -108,7 +108,7 @@
           class="mt-5"
         >
           <template #text>
-            <ItemsList :items="result.dyes" items-per-page="5" />
+            <ItemsList :items="result.dyes" items-per-page="4" />
           </template>
         </v-card>
       </v-col>
@@ -121,7 +121,7 @@
             <div>
               <h2>About</h2>
               <p>
-                <i>MakePlace TC Importer</i> by <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
+                <i>MakePlace Teamcraft Importer</i> by <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
               </p>
             </div>
 
@@ -175,7 +175,7 @@ import type { ParsedList } from '~/server/lib/makeplace';
 useHead({
   title: 'MakePlace TC Importer',
   meta: [
-    { property: 'og:title', content: 'MakePlace TC Importer' },
+    { property: 'og:title', content: 'MakePlace Teamcraft Importer' },
     { property: 'og:type', content: 'Website' },
     { property: 'og:description', content: 'Import a Makeplace JSON file to import your items into Teamcraft list.' },
     { property: 'og:url', content: 'https://mptc.oxypomme.fr' },
@@ -188,11 +188,12 @@ type UploadResult = {
   link: string;
 };
 
-const typeMap = new Map<ParsedList[number]['type'], string>([
+const typeHeaderMap = new Map<ParsedList[number]['type'], string>([
   ['interior-furniture', 'Interior Furnitures'],
   ['interior-fixture', 'Interior Fixtures'],
   ['exterior-furniture', 'Exterior Furnitures'],
   ['exterior-fixture', 'Exterior Fixtures'],
+  ['material', 'Materials'],
   ['dye', 'Dyes'],
 ]);
 
