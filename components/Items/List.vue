@@ -3,6 +3,7 @@
     :items="items"
     :headers="headers"
     :sort-by="[{ key: 'qte', order: 'desc' }]"
+    :items-per-page="itemsPerPage"
   >
     <template #[`item.item.name`]="{ value, item: { item } }">
       <nuxt-link
@@ -21,6 +22,7 @@ import type { ParsedList } from '~/server/lib/makeplace';
 
 defineProps<{
   items: ParsedList
+  itemsPerPage?: number
 }>();
 
 const headers = computed(() => [

@@ -69,11 +69,13 @@ type ParsedItem = {
 
 type ParsedListItem = {
   item: ParsedItem;
+  type: 'exterior-furniture' | 'exterior-fixture' | 'interior-furniture' | 'interior-fixture';
   qte: number;
 };
 
 type ParsedListDye = {
   item: Dye;
+  type: 'dye';
   qte: number;
 };
 
@@ -104,6 +106,7 @@ export function parseSchema(schema: MakePlaceSchema) {
     const qte = parsedColors.get(color)?.qte || 0;
     parsedColors.set(color, {
       item,
+      type: 'dye',
       qte: qte + 1,
     });
   };
@@ -113,7 +116,7 @@ export function parseSchema(schema: MakePlaceSchema) {
    *
    * @param param0 The item
    */
-  const addItem = ({ itemId, name }: MakePlaceFixture | MakePlaceFurniture) => {
+  const addItem = ({ itemId, name }: MakePlaceFixture | MakePlaceFurniture, type: ParsedListItem['type']) => {
     const qte = parsedItems.get(itemId)?.qte || 0;
 
     parsedItems.set(itemId, {
@@ -121,6 +124,7 @@ export function parseSchema(schema: MakePlaceSchema) {
         id: itemId,
         name,
       },
+      type,
       qte: qte + 1,
     });
   };
@@ -130,13 +134,13 @@ export function parseSchema(schema: MakePlaceSchema) {
    *
    * @param fixture The fixture
    */
-  const addFixtureItem = (fixture: MakePlaceFixture) => {
+  const addFixtureItem = (fixture: MakePlaceFixture, type: 'exterior-fixture' | 'interior-fixture') => {
     if (!fixture) {
       return;
     }
 
     if (fixture.itemId) {
-      addItem(fixture);
+      addItem(fixture, type);
     }
   };
 
@@ -145,17 +149,17 @@ export function parseSchema(schema: MakePlaceSchema) {
    *
    * @param fixture The furniture
    */
-  const addFurnitureItem = (furniture: MakePlaceFurniture) => {
+  const addFurnitureItem = (furniture: MakePlaceFurniture, type: 'exterior-furniture' | 'interior-furniture') => {
     if (!furniture) {
       return;
     }
 
     if (furniture.itemId) {
-      addItem(furniture);
+      addItem(furniture, type);
     }
 
     if (furniture.properties?.material?.itemId) {
-      addItem(furniture.properties.material);
+      addItem(furniture.properties.material, type);
     }
 
     if (furniture.properties?.color) {
@@ -164,16 +168,12 @@ export function parseSchema(schema: MakePlaceSchema) {
   };
 
   // Parse furniture
-  [
-    ...(schema.exteriorFurniture ?? []),
-    ...(schema.interiorFurniture ?? []),
-  ].forEach((furniture) => { addFurnitureItem(furniture); });
+  (schema.exteriorFurniture ?? []).forEach((furniture) => { addFurnitureItem(furniture, 'exterior-furniture'); });
+  (schema.interiorFurniture ?? []).forEach((furniture) => { addFurnitureItem(furniture, 'interior-furniture'); });
 
   // Parse fixture
-  [
-    ...(schema.exteriorFixture ?? []),
-    ...(schema.interiorFixture ?? []),
-  ].forEach((fixture) => { addFixtureItem(fixture); });
+  (schema.exteriorFixture ?? []).forEach((fixture) => { addFixtureItem(fixture, 'exterior-fixture'); });
+  (schema.interiorFixture ?? []).forEach((fixture) => { addFixtureItem(fixture, 'interior-fixture'); });
 
   return {
     items: Array.from(parsedItems.values()),

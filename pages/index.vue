@@ -61,16 +61,54 @@
 
     <v-row v-if="result">
       <v-col>
-        <v-card :title="`Furnitures (${result.items.length})`">
+        <v-card
+          :subtitle="`Total quantity: ${totalItems.total}`"
+          title="Furnitures and fixtures"
+        >
           <template #text>
             <ItemsList :items="result.items" />
           </template>
         </v-card>
       </v-col>
+
       <v-col>
-        <v-card :title="`Dyes (${result.dyes.length})`">
+        <v-card title="Detail">
           <template #text>
-            <ItemsList :items="result.dyes" />
+            <v-table density="compact">
+              <thead>
+                <tr>
+                  <th />
+                  <th>
+                    Count
+                  </th>
+                  <th>
+                    Total quantity
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <template v-for="[type, label] in typeMap">
+                  <tr
+                    v-if="totalItems[type]"
+                    :key="type"
+                  >
+                    <td>{{ label }}</td>
+                    <td>{{ totalItems[type].count }}</td>
+                    <td>{{ totalItems[type].total }}</td>
+                  </tr>
+                </template>
+              </tbody>
+            </v-table>
+          </template>
+        </v-card>
+
+        <v-card
+          :subtitle="`Total quantity: ${totalDyes}`"
+          title="Dyes"
+          class="mt-5"
+        >
+          <template #text>
+            <ItemsList :items="result.dyes" items-per-page="5" />
           </template>
         </v-card>
       </v-col>
@@ -150,10 +188,40 @@ type UploadResult = {
   link: string;
 };
 
+const typeMap = new Map<ParsedList[number]['type'], string>([
+  ['interior-furniture', 'Interior Furnitures'],
+  ['interior-fixture', 'Interior Fixtures'],
+  ['exterior-furniture', 'Exterior Furnitures'],
+  ['exterior-fixture', 'Exterior Fixtures'],
+  ['dye', 'Dyes'],
+]);
+
 const files = ref<File[]>([]);
 const loading = ref(false);
 const error = ref<Error | null>(null);
 const result = ref<UploadResult | null>(null);
+
+const totalItems = computed(() => {
+  if (!result.value) {
+    return { total: 0, count: 0 };
+  }
+  return result.value.items.reduce((acc, { type, qte }) => {
+    const res = acc;
+    if (!res[type]) {
+      res[type] = { count: 0, total: 0 };
+    }
+    res[type].count += 1;
+    res[type].total += qte;
+    res.total += qte;
+    return res;
+  }, { total: 0, count: result.value.items.length } as Record<ParsedList[number]['type'], { count: number, total: number }> & { total: number, count: number });
+});
+const totalDyes = computed(() => {
+  if (!result.value) {
+    return 0;
+  }
+  return result.value.dyes.reduce((acc, { qte }) => acc + qte, 0);
+});
 
 function reset() {
   error.value = null;
