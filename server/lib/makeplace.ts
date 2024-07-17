@@ -154,6 +154,10 @@ export function parseSchema(schema: MakePlaceSchema) {
       addItem(furniture);
     }
 
+    if (furniture.properties?.material?.itemId) {
+      addItem(furniture.properties.material);
+    }
+
     if (furniture.properties?.color) {
       addDye(furniture.properties.color);
     }
@@ -164,6 +168,12 @@ export function parseSchema(schema: MakePlaceSchema) {
     ...(schema.exteriorFurniture ?? []),
     ...(schema.interiorFurniture ?? []),
   ].forEach((furniture) => { addFurnitureItem(furniture); });
+
+  // Parse fixture
+  [
+    ...(schema.exteriorFixture ?? []),
+    ...(schema.interiorFixture ?? []),
+  ].forEach((fixture) => { addFixtureItem(fixture); });
 
   return {
     items: Array.from(parsedItems.values()),

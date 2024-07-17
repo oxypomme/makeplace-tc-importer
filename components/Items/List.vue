@@ -2,6 +2,7 @@
   <v-data-table
     :items="items"
     :headers="headers"
+    :sort-by="[{ key: 'qte', order: 'desc' }]"
   >
     <template #[`item.item.name`]="{ value, item: { item } }">
       <nuxt-link
@@ -23,7 +24,7 @@ defineProps<{
 }>();
 
 const headers = computed(() => [
-  { title: 'Item', value: 'item.name' },
-  { title: 'Quantity', value: 'qte' },
+  { title: 'Item', value: 'item.name', sortable: true },
+  { title: 'Quantity', value: 'qte', sortable: true },
 ]);
 </script>

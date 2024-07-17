@@ -9,7 +9,7 @@
     <v-row>
       <v-col>
         <v-alert type="info" variant="tonal">
-          This tool is in early stages of development :
+          This tool is in early stage of development :
           if you encounter any issue (or feature requests), please
           <a href="https://github.com/oxypomme/makeplace-tc-importer/issues" target="_blank" rel="noopener noreferrer">open an issue</a>.
         </v-alert>
@@ -61,14 +61,14 @@
 
     <v-row v-if="result">
       <v-col>
-        <v-card title="Meubles">
+        <v-card :title="`Furnitures (${result.items.length})`">
           <template #text>
             <ItemsList :items="result.items" />
           </template>
         </v-card>
       </v-col>
       <v-col>
-        <v-card title="Dyes">
+        <v-card :title="`Dyes (${result.dyes.length})`">
           <template #text>
             <ItemsList :items="result.dyes" />
           </template>
@@ -83,7 +83,7 @@
             <div>
               <h2>About</h2>
               <p>
-                <b>MakePlace TC Importer</b> by <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
+                <i>MakePlace TC Importer</i> by <a href="https://github.com/oxypomme" target="_blank" rel="noopener noreferrer">oxypomme</a> (aka. Eileanoxy@Saggitarius)
               </p>
             </div>
 
