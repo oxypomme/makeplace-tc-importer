@@ -24,8 +24,16 @@ type XIVAPISearchResults<T> = {
   Results: T[],
 };
 
+const { xivapiKey } = useRuntimeConfig();
+
 function useXIVAPI<T>(path: string, opts?: NitroFetchOptions) {
-  return $fetch<T>(`https://xivapi.com${path}`, opts);
+  return $fetch<T>(`https://xivapi.com${path}`, {
+    ...(opts ?? {}),
+    query: {
+      ...(opts?.query ?? {}),
+      private_key: xivapiKey,
+    },
+  });
 }
 
 async function* useXIVAPISearch<T>(request: XIVAPISearchRequest, opts?: Omit<NitroFetchOptions, 'body' | 'method'>) {
@@ -34,7 +42,6 @@ async function* useXIVAPISearch<T>(request: XIVAPISearchRequest, opts?: Omit<Nit
 
   let hasEnded = false;
   while (!hasEnded) {
-    console.log(`Fetching ${total} - ${total + size}`);
     // eslint-disable-next-line no-await-in-loop
     const { Results } = await useXIVAPI<XIVAPISearchResults<T>>(
       '/search',
