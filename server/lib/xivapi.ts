@@ -1,5 +1,6 @@
 import { setTimeout } from 'node:timers/promises';
 
+import { appLogger } from './logger';
 import type { ParsedList } from './makeplace';
 
 type NitroFetchOptions = Parameters<(typeof $fetch)>[1];
@@ -42,6 +43,7 @@ async function* useXIVAPISearch<T>(request: XIVAPISearchRequest, opts?: Omit<Nit
 
   let hasEnded = false;
   while (!hasEnded) {
+    appLogger.debug('Searching in XIVAPI...');
     // eslint-disable-next-line no-await-in-loop
     const { Results } = await useXIVAPI<XIVAPISearchResults<T>>(
       '/search',
@@ -61,6 +63,12 @@ async function* useXIVAPISearch<T>(request: XIVAPISearchRequest, opts?: Omit<Nit
 
     hasEnded = Results.length < size;
     total += Results.length;
+    appLogger.info({
+      msg: 'Results from XIVAPI !',
+      results: Results.length,
+      size,
+      total,
+    });
     yield Results;
     // eslint-disable-next-line no-await-in-loop
     await setTimeout(1000);
