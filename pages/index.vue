@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
-        <h1>MakePlace Teamcraft Importer</h1>
+        <h1>MakePlace {{ exporter.title }} Importer</h1>
       </v-col>
     </v-row>
 
@@ -22,33 +22,48 @@
           <template #text>
             <p>
               Import a <a href="https://makeplace.app" target="_blank" rel="noopener noreferrer">Makeplace</a> JSON file to import
-              your items into <a href="https://ffxivteamcraft.com" target="_blank" rel="noopener noreferrer">Teamcraft</a> list.
+              your items into <a :href="exporter.url" target="_blank" rel="noopener noreferrer">{{ exporter.title }}</a> list.
             </p>
 
             <div class="mt-4 mb-2">
-              <v-file-input
-                v-model="files"
-                :loading="loading"
-                :error="!!error"
-                :error-messages="error?.message"
-                label="Makeplace JSON file"
-                prepend-icon="mdi-upload"
-                variant="outlined"
-                accept=".json"
-                show-size
-                @update:model-value="onFileUpload($event)"
-                @click:clear="reset()"
-              />
+              <v-row>
+                <v-col cols="8" lg="10">
+                  <v-file-input
+                    v-model="files"
+                    :loading="loading"
+                    :error="!!error"
+                    :error-messages="error?.message"
+                    label="Makeplace JSON file"
+                    prepend-icon="mdi-upload"
+                    variant="outlined"
+                    accept=".json"
+                    show-size
+                    @update:model-value="onFileUpload($event)"
+                    @click:clear="reset()"
+                  />
+                </v-col>
+
+                <v-col>
+                  <v-select
+                    v-model="exporter"
+                    :items="Object.values(availableExporters)"
+                    label="Exporter"
+                    variant="outlined"
+                    return-object
+                    @update:model-value="result && reset()"
+                  />
+                </v-col>
+              </v-row>
             </div>
 
             <v-alert v-if="result" type="success" variant="tonal" closable @click:close="files = [] && reset()">
               <div>
-                Everything went fine ! You can now import your items into Teamcraft !
+                Everything went fine ! You can now import your items into {{ exporter.title }} !
               </div>
               <div class="mt-2">
                 <v-btn
                   :href="result.link"
-                  text="Import into Teamcraft"
+                  :text="`Import into ${exporter.title}`"
                   append-icon="mdi-arrow-right"
                   color="success"
                 />
@@ -130,7 +145,7 @@
               <p>
                 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
                 FINAL FANTASY XIV © 2010 - 2019 SQUARE ENIX CO., LTD. All Rights Reserved.<br />
-                FFXIV Teamcraft and MakePlace are not affiliated with Square Enix.
+                FFXIV Teamcraft, Garland Tools and MakePlace are not affiliated with Square Enix.
               </p>
             </div>
 
@@ -139,6 +154,7 @@
               <ul class="ml-5">
                 <li><a href="https://makeplace.app" target="_blank" rel="noopener noreferrer">Makeplace</a></li>
                 <li><a href="https://ffxivteamcraft.com" target="_blank" rel="noopener noreferrer">Teamcraft</a></li>
+                <li><a href="https://garlandtools.org" target="_blank" rel="noopener noreferrer">Garland Tools</a></li>
                 <li><a href="https://xivapi.com" target="_blank" rel="noopener noreferrer">XIVAPI</a></li>
               </ul>
             </div>
@@ -170,6 +186,7 @@
 </template>
 
 <script setup lang="ts">
+import { optional } from 'zod';
 import type { ParsedList } from '~/server/lib/makeplace';
 
 useHead({
@@ -188,6 +205,10 @@ type UploadResult = {
   link: string;
 };
 
+const availableExporters = [
+  { url: 'https://ffxivteamcraft.com', title: 'Teamcraft', value: 'teamcraft' },
+  { url: 'https://garlandtools.org/', title: 'Garland Tools', value: 'garlandtools' },
+] as const;
 const typeHeaderMap = new Map<ParsedList[number]['type'], string>([
   ['interior-furniture', 'Interior Furnitures'],
   ['interior-fixture', 'Interior Fixtures'],
@@ -198,6 +219,7 @@ const typeHeaderMap = new Map<ParsedList[number]['type'], string>([
 ]);
 
 const files = ref<File[]>([]);
+const exporter = ref<(typeof availableExporters)[number]>(availableExporters[0]);
 const loading = ref(false);
 const error = ref<Error | null>(null);
 const result = ref<UploadResult | null>(null);
@@ -245,6 +267,27 @@ function readJSONFile(file: File) {
   });
 }
 
+async function getTCImportLink(file: File) {
+  const schema = await readJSONFile(file);
+
+  return $fetch('/api/makeplace/teamcraft', {
+    method: 'POST',
+    body: schema,
+  });
+}
+
+async function getGTImportLink(file: File) {
+  const schema = await readJSONFile(file);
+
+  return $fetch('/api/makeplace/garlean', {
+    method: 'POST',
+    body: schema,
+    query: {
+      name: file.name.replace(/\.json$/i, ''),
+    },
+  });
+}
+
 async function onFileUpload(f: File | File[]) {
   const file = Array.isArray(f) ? f[0] : f;
   if (!file) {
@@ -255,12 +298,18 @@ async function onFileUpload(f: File | File[]) {
   loading.value = true;
 
   try {
-    const schema = await readJSONFile(file);
+    switch (exporter.value.value) {
+      case 'teamcraft':
+        result.value = await getTCImportLink(file);
+        break;
 
-    result.value = await $fetch('/api/makeplace/teamcraft', {
-      method: 'POST',
-      body: schema,
-    });
+      case 'garlandtools':
+        result.value = await getGTImportLink(file);
+        break;
+
+      default:
+        throw new Error(`Unknown exporter: ${exporter.value}`);
+    }
   } catch (e) {
     const err = e instanceof Error ? e : new Error(`${e}`);
     error.value = err;
