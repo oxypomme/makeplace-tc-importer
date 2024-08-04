@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --inspect",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -12,6 +12,8 @@
   "dependencies": {
     "@mdi/font": "^7.4.47",
     "nuxt": "^3.12.3",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
     "vue": "latest",
     "zod": "^3.23.8"
   },
