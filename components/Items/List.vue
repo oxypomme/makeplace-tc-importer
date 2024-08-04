@@ -5,6 +5,10 @@
     :sort-by="[{ key: 'qte', order: 'desc' }]"
     :items-per-page="itemsPerPage"
   >
+    <template #[`item.item.icon`]="{ value }">
+      <v-avatar v-if="value" :image="`https://xivapi.com${value}`" density="compact" />
+    </template>
+
     <template #[`item.item.name`]="{ value, item: { item } }">
       <nuxt-link
         :href="`https://ffxivteamcraft.com/db/en/item/${item.id}`"
@@ -26,6 +30,7 @@ defineProps<{
 }>();
 
 const headers = computed(() => [
+  { title: '', value: 'item.icon' },
   { title: 'Item', value: 'item.name', sortable: true },
   { title: 'Quantity', value: 'qte', sortable: true },
 ]);
