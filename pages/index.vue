@@ -62,7 +62,7 @@
     <v-row v-if="result">
       <v-col>
         <v-card
-          :subtitle="`Total quantity: ${totalItems.total}`"
+          :subtitle="`Total quantity: ${totalItems._?.total ?? '?'}`"
           title="Furnitures and fixtures"
         >
           <template #text>
@@ -87,12 +87,12 @@
                 </tr>
               </thead>
               <tbody>
-                <template v-for="[type, label] in typeHeaderMap">
+                <template v-for="[type, { label, icon }] in typeHeaderMap">
                   <tr
                     v-if="totalItems[type]"
                     :key="type"
                   >
-                    <td>{{ label }}</td>
+                    <td><v-icon :icon="icon" size="small" class="mr-1" /> {{ label }}</td>
                     <td>{{ totalItems[type].count }}</td>
                     <td>{{ totalItems[type].total }}</td>
                   </tr>
@@ -182,19 +182,21 @@ useHead({
   ],
 });
 
+type ParsedItemType = ParsedList[number]['type'];
+
 type UploadResult = {
   items: ParsedList;
   dyes: ParsedList;
   link: string;
 };
 
-const typeHeaderMap = new Map<ParsedList[number]['type'], string>([
-  ['interior-furniture', 'Interior Furnitures'],
-  ['interior-fixture', 'Interior Fixtures'],
-  ['exterior-furniture', 'Exterior Furnitures'],
-  ['exterior-fixture', 'Exterior Fixtures'],
-  ['material', 'Materials'],
-  ['dye', 'Dyes'],
+const typeHeaderMap = new Map<ParsedItemType, { label: string, icon: string }>([
+  ['interior-furniture', { label: 'Interior Furnitures', icon: 'mdi-table-furniture' }],
+  ['interior-fixture', { label: 'Interior Fixtures', icon: 'mdi-wall' }],
+  ['exterior-furniture', { label: 'Exterior Furnitures', icon: 'mdi-tree' }],
+  ['exterior-fixture', { label: 'Exterior Fixtures', icon: 'mdi-home' }],
+  ['material', { label: 'Materials', icon: 'mdi-wallpaper' }],
+  ['dye', { label: 'Dyes', icon: 'mdi-palette' }],
 ]);
 
 const files = ref<File[]>([]);
@@ -203,9 +205,20 @@ const error = ref<Error | null>(null);
 const result = ref<UploadResult | null>(null);
 
 const totalItems = computed(() => {
-  if (!result.value) {
-    return { total: 0, count: 0 };
+  const initial: { [type in ParsedItemType | '_']?: { total: number, count: number } } = {
+    _: {
+      total: 0,
+      count: 0,
+    },
+  };
+
+  if (!result.value || !initial._) {
+    return initial;
   }
+
+  const globalResult = initial._;
+  globalResult.count = result.value.items.length;
+
   return result.value.items.reduce((acc, { type, qte }) => {
     const res = acc;
     if (!res[type]) {
@@ -213,9 +226,9 @@ const totalItems = computed(() => {
     }
     res[type].count += 1;
     res[type].total += qte;
-    res.total += qte;
+    globalResult.total += qte;
     return res;
-  }, { total: 0, count: result.value.items.length } as Record<ParsedList[number]['type'], { count: number, total: number }> & { total: number, count: number });
+  }, initial);
 });
 const totalDyes = computed(() => {
   if (!result.value) {

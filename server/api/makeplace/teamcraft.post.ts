@@ -1,5 +1,6 @@
 import { appLogger } from '~/server/lib/logger';
 import { MakePlaceSchemaValidation, parseSchema } from '~/server/lib/makeplace';
+import { enrichItems } from '~/server/lib/xivapi';
 import { getImportLink } from '~/server/lib/teamcraft';
 
 export default defineEventHandler(async (event) => {
@@ -16,17 +17,34 @@ export default defineEventHandler(async (event) => {
     }
     appLogger.debug('MakePlace schema is valid !');
 
+    // Parse makeplace file
     appLogger.debug('Parsing MakePlace schema...');
     const { items, dyes } = parseSchema(result.data);
     appLogger.info({ msg: 'MakePlace schema parsed !', items: items.length, dyes: dyes.length });
 
+    // Enrich items
+    appLogger.debug('Enriching items...');
+    const dyesIds = new Set(dyes.map(({ item }) => item.id));
+    const enriched = await enrichItems([...items, ...dyes]);
+    const enrichedDyes = [];
+    const enrichedItems = [];
+    // eslint-disable-next-line no-restricted-syntax
+    for (const item of enriched) {
+      if (dyesIds.has(item.item.id)) {
+        enrichedDyes.push(item);
+      } else {
+        enrichedItems.push(item);
+      }
+    }
+    appLogger.info({ msg: 'Items enriched !', items: enrichedItems.length, dyes: enrichedDyes.length });
+
     return {
-      items,
-      dyes,
+      dyes: enrichedDyes,
+      items: enrichedItems,
       link: getImportLink([...items, ...dyes]),
     };
   } catch (error) {
-    appLogger.error('Error while generating import link', error);
+    appLogger.error('Error while generating import link for TeamCraft', error);
     throw error;
   }
 });
