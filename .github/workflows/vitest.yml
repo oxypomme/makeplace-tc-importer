@@ -3,7 +3,7 @@ name: Run vitest tests
 on:
   pull_request:
     branches:
-      - master
+      - develop
 
 jobs:
   test:
