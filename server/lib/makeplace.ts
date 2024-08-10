@@ -8,7 +8,7 @@ const MakePlaceFixtureValidation = z.object({
 
 type MakePlaceFixture = z.infer<typeof MakePlaceFixtureValidation>;
 
-const MakePlaceFurnitureValidation = z.object({
+const MakePlaceFurnitureBaseValidation = z.object({
   itemId: z.number(),
   name: z.string().optional(),
   properties: z.object({
@@ -19,7 +19,14 @@ const MakePlaceFurnitureValidation = z.object({
   }),
 });
 
-type MakePlaceFurniture = z.infer<typeof MakePlaceFurnitureValidation>;
+type MakePlaceFurniture = z.infer<typeof MakePlaceFurnitureBaseValidation> & {
+  attachments?: MakePlaceFurniture[],
+};
+
+// eslint-disable-next-line vue/max-len
+const MakePlaceFurnitureValidation: z.ZodType<MakePlaceFurniture> = MakePlaceFurnitureBaseValidation.extend({
+  attachements: z.lazy(() => MakePlaceFurnitureValidation.array().optional()),
+});
 
 export const MakePlaceSchemaValidation = z.object({
   exteriorFixture: z.array(MakePlaceFixtureValidation),
@@ -130,21 +137,6 @@ export function parseSchema(schema: MakePlaceSchema) {
   };
 
   /**
-   * Add an fixture to the list
-   *
-   * @param fixture The fixture
-   */
-  const addFixtureItem = (fixture: MakePlaceFixture, type: 'exterior-fixture' | 'interior-fixture') => {
-    if (!fixture) {
-      return;
-    }
-
-    if (fixture.itemId) {
-      addItem(fixture, type);
-    }
-  };
-
-  /**
    * Add an furniture to the list
    *
    * @param fixture The furniture
@@ -164,6 +156,25 @@ export function parseSchema(schema: MakePlaceSchema) {
 
     if (furniture.properties?.color) {
       addDye(furniture.properties.color);
+    }
+
+    if (furniture.attachments) {
+      furniture.attachments.forEach((attachment) => { addFurnitureItem(attachment, type); });
+    }
+  };
+
+  /**
+   * Add an fixture to the list
+   *
+   * @param fixture The fixture
+   */
+  const addFixtureItem = (fixture: MakePlaceFixture, type: 'exterior-fixture' | 'interior-fixture') => {
+    if (!fixture) {
+      return;
+    }
+
+    if (fixture.itemId) {
+      addItem(fixture, type);
     }
   };
 
