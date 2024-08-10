@@ -1,13 +1,9 @@
 name: Create and publish a Docker image
 
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
 on:
   push:
-    branches: [master]
+    branches:
+      - master
 
 env:
   # Use docker.io for Docker Hub if empty
@@ -21,50 +17,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout repository 🛎️
+        uses: actions/checkout@v4
 
-      # Bump version and push tag
-      # https://github.com/mathieudutour/github-tag-action
-      - name: Bump version and push tag
+      - name: Bump version and push tag ⏫
         id: tag_version
-        uses: mathieudutour/github-tag-action@v6.1
+        uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Login against a Docker registry
-      # https://github.com/docker/login-action
-      - name: Log into registry ${{ env.REGISTRY }}
-        uses: docker/login-action@v2
+      - name: Log into registry ${{ env.REGISTRY }} 🔒
+        uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # Extract metadata (tags, labels) for Docker
-      # https://github.com/docker/metadata-action
-      - name: Extract Docker metadata
+      - name: Extract Docker metadata 🔧
         id: meta
-        uses: docker/metadata-action@v4
+        uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
             ${{ steps.tag_version.outputs.new_tag }}
             latest
 
-      # Build and push Docker image with Buildx
-      # https://github.com/docker/build-push-action
-      - name: Build and push first Docker image
-        uses: docker/build-push-action@v4
+      - name: Build and push first Docker image 🚚
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-      # Create realease
-      # https://github.com/ncipollo/release-action
-      - name: Create a GitHub release
+      - name: Create a GitHub release ✏️
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}

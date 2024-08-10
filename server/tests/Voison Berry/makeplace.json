@@ -1,0 +1,4017 @@
+{
+	"lightLevel": 0.47676742076873779,
+	"houseSize": "Medium",
+	"interiorFixture": [
+		{
+			"level": "",
+			"type": "District",
+			"name": "Goblet",
+			"itemId": 0,
+			"color": ""
+		},
+		{
+			"level": "Basement",
+			"type": "Floor",
+			"name": "Glade Flooring",
+			"itemId": 6459,
+			"color": ""
+		},
+		{
+			"level": "Ground Floor",
+			"type": "Light",
+			"name": "Riviera Pendant Lamp",
+			"itemId": 6461,
+			"color": ""
+		},
+		{
+			"level": "Upper Floor",
+			"type": "Light",
+			"name": "Oasis Pendant Lamp",
+			"itemId": 6467,
+			"color": ""
+		},
+		{
+			"level": "Basement",
+			"type": "Light",
+			"name": "Crystal Chandelier",
+			"itemId": 16013,
+			"color": ""
+		},
+		{
+			"level": "Ground Floor",
+			"type": "Floor",
+			"name": "Varied Wood Flooring",
+			"itemId": 35810,
+			"color": ""
+		},
+		{
+			"level": "Upper Floor",
+			"type": "Floor",
+			"name": "Glade Flooring",
+			"itemId": 6459,
+			"color": ""
+		},
+		{
+			"level": "Ground Floor",
+			"type": "Wall",
+			"name": "Varied Wood Interior Wall",
+			"itemId": 32254,
+			"color": ""
+		},
+		{
+			"level": "Upper Floor",
+			"type": "Wall",
+			"name": "Storm Blue Interior Wall",
+			"itemId": 33248,
+			"color": ""
+		},
+		{
+			"level": "Basement",
+			"type": "Wall",
+			"name": "Storm Blue Interior Wall",
+			"itemId": 33248,
+			"color": ""
+		}
+	],
+	"exteriorScale": 100,
+	"exteriorFixture": [
+		{
+			"level": "",
+			"type": "Exterior Wall",
+			"name": "Medium Florist's Walls",
+			"itemId": 32256,
+			"color": ""
+		},
+		{
+			"level": "",
+			"type": "Window",
+			"name": "Empty",
+			"itemId": 0,
+			"color": ""
+		}
+	],
+	"exteriorFurniture": [],
+	"metaData":
+	{
+		"version": 129
+	},
+	"interiorScale": 100,
+	"interiorFurniture": [
+		{
+			"itemId": 29682,
+			"name": "Cloison blanche",
+			"transform":
+			{
+				"location": [ 200.20780944824219, -913.66717529296875, 0 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 29682,
+			"name": "Cloison blanche",
+			"transform":
+			{
+				"location": [ -195.46719360351562, -913.6688232421875, 0 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20734,
+			"name": "Bibliothèque hingashienne",
+			"transform":
+			{
+				"location": [ -389.20156860351562, -26.762056350708008, -290.69375610351562 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 20734,
+			"name": "Bibliothèque hingashienne",
+			"transform":
+			{
+				"location": [ -389.2015380859375, -286.532958984375, -290.69375610351562 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -690.78753662109375, -685.73968505859375, 361.1187744140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ -333.858154296875, 292.50830078125, 432.3123779296875 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -444.67520141601562, 276.63711547851562, 313.80697631835938 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -981.89947509765625, -385.19525146484375, 8.9870567321777344 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24512,
+			"name": "Escalier en bois",
+			"transform":
+			{
+				"location": [ -778.3599853515625, -714.98883056640625, 15.465699195861816 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -138.94590759277344, -152.49296569824219, 28.165699005126953 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 27276,
+			"name": "Spécimen de papillon",
+			"transform":
+			{
+				"location": [ -235.24183654785156, 728.5699462890625, 476.55886840820312 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 224.53147888183594, -645.6439208984375, 49.314773559570312 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -238.69337463378906, -653.1007080078125, 34.095741271972656 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -344.18862915039062, 731.19232177734375, -10.620570182800293 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 296.05355834960938, 701.5821533203125, -2.064281702041626 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -1050.6107177734375, -107.81636047363281, 421.53762817382812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -991.448974609375, 313.41632080078125, 340.8233642578125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 287.18649291992188, -683.53167724609375, 301.51315307617188 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ -592.60198974609375, -438.4200439453125, 145.66413879394531 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 23895,
+			"name": "Serviettes de bain",
+			"transform":
+			{
+				"location": [ -988.6805419921875, -387.58224487304688, 4.7680258750915527 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 28987,
+			"name": "Livre ouvert",
+			"transform":
+			{
+				"location": [ -590.45025634765625, -470.06582641601562, 85.354026794433594 ],
+				"rotation": [ 0, -0, 0.078460053442642064, 0.99691725835887579 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ -734.0028076171875, -308.828857421875, 145.98648071289062 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20732,
+			"name": "Dressoir hingashien",
+			"transform":
+			{
+				"location": [ -541.272216796875, -420.75595092773438, -0.0076706660911440849 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 22549,
+			"name": "Panier à linge",
+			"transform":
+			{
+				"location": [ -970.12091064453125, -453.95880126953125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20732,
+			"name": "Dressoir hingashien",
+			"transform":
+			{
+				"location": [ -405.65313720703125, 16.748437881469727, 299.8828125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 20732,
+			"name": "Dressoir hingashien",
+			"transform":
+			{
+				"location": [ -405.65313720703125, -412.28753662109375, 299.8828125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 35566,
+			"name": "Articles mignons",
+			"transform":
+			{
+				"location": [ -1002.2952880859375, 414.76034545898438, 391.40301513671875 ],
+				"rotation": [ -0, 0, -0.72837093846128353, 0.68518302372798856 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 28146,
+			"name": "Mémoquartz allagois de table",
+			"transform":
+			{
+				"location": [ -439.69302368164062, -334.38333129882812, 383.30868530273438 ],
+				"rotation": [ 0, -0, 0.52621496321358407, 0.85035158169437552 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ -1078.723388671875, 642.22161865234375, 497.04022216796875 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ -955.0537109375, 726.44903564453125, 451.15518188476562 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ 153.21444702148438, 724.40155029296875, 428.45535278320312 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 35563,
+			"name": "Guirlande étoilée",
+			"transform":
+			{
+				"location": [ 201.47676086425781, -703.1722412109375, 617.8687744140625 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35563,
+			"name": "Guirlande étoilée",
+			"transform":
+			{
+				"location": [ 28.869390487670898, -703.17242431640625, 588.10809326171875 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35563,
+			"name": "Guirlande étoilée",
+			"transform":
+			{
+				"location": [ -114.04989624023438, -703.17169189453125, 588.2001953125 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35563,
+			"name": "Guirlande étoilée",
+			"transform":
+			{
+				"location": [ -255.39356994628906, -703.16046142578125, 588.75506591796875 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 33278,
+			"name": "Tasse de café filtre",
+			"transform":
+			{
+				"location": [ 287.07901000976562, -563.1510009765625, 368.97000122070312 ],
+				"rotation": [ 0, -0, 0.99953359308162537, 0.030538439733164474 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35557,
+			"name": "Décoration murale de lierre",
+			"transform":
+			{
+				"location": [ 924.738525390625, -519.8685302734375, 458.84622192382812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 15146,
+			"name": "Petit déjeuner ishgardais",
+			"transform":
+			{
+				"location": [ -132.47811889648438, -94.266464233398438, 69.135627746582031 ],
+				"rotation": [ -0, 0, -0.81915187110252008, 0.57357668368688097 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -350.48141479492188, -150.27299499511719, 4.0960016250610352 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 1011.2686157226562, -23.235284805297852, 30.273944854736328 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 929.57879638671875, -608.65679931640625, 53.20147705078125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 646.879638671875, -657.50762939453125, 96.742950439453125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ -141.09684753417969, -392.87451171875, 16.317468643188477 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 12086,
+			"name": "Goûter ishgardais",
+			"transform":
+			{
+				"location": [ 840.8560791015625, -275.457763671875, 41.320049285888672 ],
+				"rotation": [ 0, -0, 0.96704596803892962, 0.25460183758105465 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6637,
+			"name": "Lanterne sombrelinçoise",
+			"transform":
+			{
+				"location": [ 60.011367797851562, -153.08203125, 17.593080520629883 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7975,
+			"name": "Pot de dragonnier",
+			"transform":
+			{
+				"location": [ 1010.474365234375, -26.008813858032227, -0.0077142324298620207 ],
+				"rotation": [ 0, -0, 0.18652306087415049, 0.98245058286009368 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22562,
+			"name": "Vase somptueux du Château dimensionnel",
+			"transform":
+			{
+				"location": [ 974.9296875, -288.228271484375, 95.538375854492188 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 28986,
+			"name": "Planche à découper",
+			"transform":
+			{
+				"location": [ 885.83697509765625, -322.58572387695312, 96.317062377929688 ],
+				"rotation": [ -0, 0, -0.99725015874191314, 0.074108844878523372 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22537,
+			"name": "Lampe mog mignonne",
+			"transform":
+			{
+				"location": [ 257.5, 675.725830078125, -53.966190338134766 ],
+				"rotation": [ 0, -0, 0.0043631494837663388, 0.99999048141798952 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 28639,
+			"name": "Canapé en cuir",
+			"transform":
+			{
+				"location": [ 287.36282348632812, -708.833740234375, 300.65032958984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 6668,
+			"name": "Quinquet de Nym",
+			"transform":
+			{
+				"location": [ -15.632981300354004, -715.03399658203125, 263.69387817382812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20735,
+			"name": "Buffet hingashien",
+			"transform":
+			{
+				"location": [ 275.13558959960938, 642.154052734375, -232.95286560058594 ],
+				"rotation": [ -0, 0, -0.70710681098887096, 0.70710675138422296 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 6668,
+			"name": "Quinquet de Nym",
+			"transform":
+			{
+				"location": [ 67.474655151367188, 727.63134765625, 350.78231811523438 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22559,
+			"name": "Tabouret de bar",
+			"transform":
+			{
+				"location": [ 293.0882568359375, -563.86334228515625, 299.5587158203125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 6668,
+			"name": "Quinquet de Nym",
+			"transform":
+			{
+				"location": [ -881.0589599609375, 120.66305541992188, 270.5029296875 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6668,
+			"name": "Quinquet de Nym",
+			"transform":
+			{
+				"location": [ -419.85626220703125, -589.3203125, 256.30783081054688 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 27276,
+			"name": "Spécimen de papillon",
+			"transform":
+			{
+				"location": [ -1046.7396240234375, -291.93792724609375, 179.37161254882812 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6541,
+			"name": "Support à livre de correspondance",
+			"transform":
+			{
+				"location": [ 257.49383544921875, 581.49542236328125, 72.62176513671875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 30410,
+			"name": "Lit en alcôve en marbre",
+			"transform":
+			{
+				"location": [ -1077.1761474609375, 600.947021484375, -258.71282958984375 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ -636.55029296875, 272.1312255859375, -250.91407775878906 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ -615.671875, 348.37655639648438, 398.6312255859375 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ -617.94219970703125, 348.37655639648438, 397.80938720703125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ -652.546875, 348.37655639648438, 398.22186279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35563,
+			"name": "Guirlande étoilée",
+			"transform":
+			{
+				"location": [ -354.09500122070312, -201.75102233886719, 540.27520751953125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22563,
+			"name": "Vase imposant du Château dimensionnel",
+			"transform":
+			{
+				"location": [ -690.248291015625, -618.62432861328125, 300.2467041015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6646,
+			"name": "Pot de phalangère",
+			"transform":
+			{
+				"location": [ -994.93524169921875, 313.44247436523438, 300.52203369140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 14055,
+			"name": "Pot de fleurs noscéen",
+			"transform":
+			{
+				"location": [ -1002.2935791015625, 565.18255615234375, 392.53927612304688 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20735,
+			"name": "Buffet hingashien",
+			"transform":
+			{
+				"location": [ -140.45350646972656, -154.35452270507812, -237.41899108886719 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 28995,
+			"name": "Patère à tabliers",
+			"transform":
+			{
+				"location": [ 1070.33056640625, -513.9844970703125, 136.79730224609375 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22572,
+			"name": "Fausse fenêtre de papier hingashienne",
+			"transform":
+			{
+				"location": [ -1047.590576171875, -20.92457389831543, 156.249755859375 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 8814,
+			"name": "Paillasson thanalanais",
+			"transform":
+			{
+				"location": [ -875.59423828125, -286.92669677734375, -0.0012510006781667471 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 23893,
+			"name": "Tapis en céramique",
+			"transform":
+			{
+				"location": [ -918.104248046875, 2.1966695785522461, 0.0010571826715022326 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 23894,
+			"name": "Panneau en céramique",
+			"transform":
+			{
+				"location": [ -732.73284912109375, -101.63991546630859, 100.72030639648438 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "781A1AFF"
+			}
+		},
+		{
+			"itemId": 23894,
+			"name": "Panneau en céramique",
+			"transform":
+			{
+				"location": [ -985.453125, 121.58750152587891, 100.72030639648438 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "781A1AFF"
+			}
+		},
+		{
+			"itemId": 23894,
+			"name": "Panneau en céramique",
+			"transform":
+			{
+				"location": [ -786.8187255859375, 122.05000305175781, 100.72030639648438 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "781A1AFF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ -853.4921875, -576.515625, 302.29217529296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ -853.4937744140625, -396.39529418945312, 302.29217529296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 15144,
+			"name": "Vasque sur pied",
+			"transform":
+			{
+				"location": [ -483.015625, -466.13043212890625, -0.014610256999731062 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 16781,
+			"name": "Estrade de luxe",
+			"transform":
+			{
+				"location": [ -1219.109130859375, -148.73905944824219, -15.487491607666016 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 16781,
+			"name": "Estrade de luxe",
+			"transform":
+			{
+				"location": [ -790.5296630859375, -850.94757080078125, -15.487493515014648 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -723.08123779296875, -241.16561889648438, 0.0066979853436350822 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -723.0797119140625, -1.5921876430511475, -0.0082837194204330444 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -919.436279296875, 131.6942138671875, -0.0029669096693396568 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 22572,
+			"name": "Fausse fenêtre de papier hingashienne",
+			"transform":
+			{
+				"location": [ -572.7603759765625, -678.2655029296875, 154.48196411132812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -410.3277587890625, -640.399169921875, -1.4198541641235352 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 16781,
+			"name": "Estrade de luxe",
+			"transform":
+			{
+				"location": [ -1262.1781005859375, -714.7593994140625, -15.489062309265137 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24512,
+			"name": "Escalier en bois",
+			"transform":
+			{
+				"location": [ -1064.3250732421875, -556.54180908203125, 108.38780212402344 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -658.9691162109375, -478.47747802734375, 297.99356079101562 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24512,
+			"name": "Escalier en bois",
+			"transform":
+			{
+				"location": [ -1064.3250732421875, -388.125, 261.82186889648438 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -848.08599853515625, -679.19219970703125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ -421.53125, 446.88125610351562, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ -542.85308837890625, 446.88125610351562, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -534.41717529296875, 446.88125610351562, 150.0703125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.8515625, -448.1484375, 597.0390625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.85311889648438, -50.545310974121094, 590.7672119140625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 350.3074951171875, -721.55535888671875, 298.12811279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.8515625, 334.91152954101562, 587.3001708984375 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ -664.13909912109375, 446.88125610351562, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1077.0999755859375, 55.990623474121094, 77.073440551757812 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1090.5718994140625, 404.80157470703125, 300.0250244140625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.3125, 244.44686889648438, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.46875, 224.60882568359375, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 35571,
+			"name": "Store en bois",
+			"transform":
+			{
+				"location": [ -1091.0250244140625, 39.30352783203125, 574.68121337890625 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "615245FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.3125, 203.77342224121094, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.46875, 182.59384155273438, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.46875, -97.890625, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.484375, -117.85781097412109, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 35571,
+			"name": "Store en bois",
+			"transform":
+			{
+				"location": [ -1091.0250244140625, -251.125, 574.68121337890625 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "615245FF"
+			}
+		},
+		{
+			"itemId": 35571,
+			"name": "Store en bois",
+			"transform":
+			{
+				"location": [ -1091.0250244140625, -542.84527587890625, 574.68121337890625 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "615245FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -678.0218505859375, -869.7047119140625, 375.015625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -699.296875, -869.70623779296875, 375.015625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 35571,
+			"name": "Store en bois",
+			"transform":
+			{
+				"location": [ -839.54541015625, -716.942138671875, 570.10723876953125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "615245FF"
+			}
+		},
+		{
+			"itemId": 35571,
+			"name": "Store en bois",
+			"transform":
+			{
+				"location": [ -530.49627685546875, -716.942138671875, 572.7015380859375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "615245FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1090.5733642578125, 654.36248779296875, 300.0250244140625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ -593.780029296875, 726.10003662109375, 0 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -956.06689453125, 706.27130126953125, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -556.25567626953125, 707.02899169921875, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -957.76922607421875, 305.62814331054688, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -558.23199462890625, 305.836181640625, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -959.276611328125, -92.498435974121094, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7984,
+			"name": "Lit de plume double",
+			"transform":
+			{
+				"location": [ -502.31069946289062, -198.24847412109375, 298.04061889648438 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.484375, -392.2265625, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.5, -414.07965087890625, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.3125, 599.64373779296875, 593.67498779296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.328125, 260.87344360351562, 593.67657470703125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.3125, -71.703018188476562, 593.67498779296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.328125, -470.4053955078125, 593.67657470703125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -992.37652587890625, -681.25, 593.67657470703125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -600.3577880859375, -681.40625, 593.67657470703125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 28639,
+			"name": "Canapé en cuir",
+			"transform":
+			{
+				"location": [ -408.08462524414062, 276.3607177734375, 300.16494750976562 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 35580,
+			"name": "Paysage magique: Mer de Rubis",
+			"transform":
+			{
+				"location": [ -1084.155029296875, -86.945510864257812, 243.04063415527344 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35580,
+			"name": "Paysage magique: Mer de Rubis",
+			"transform":
+			{
+				"location": [ -1084.3515625, -430.96060180664062, 243.04063415527344 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.824951171875, -79.213630676269531, 77.071876525878906 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.8265380859375, -474.234375, 77.073440551757812 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -937.21875, -679.1890869140625, 77.704689025878906 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1056.5078125, 55.9921875, 77.073440551757812 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1245.3125, 161.03749084472656, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -370.40313720703125, -869.70623779296875, 375.015625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -392.91561889648438, -869.70623779296875, 375.015625 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -1163.2249755859375, -681.40625, 375.015625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 35580,
+			"name": "Paysage magique: Mer de Rubis",
+			"transform":
+			{
+				"location": [ -707.8734130859375, -709.07379150390625, 243.04063415527344 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -559.13592529296875, -701.9609375, 77.073440551757812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -559.13592529296875, -679.19061279296875, 77.073440551757812 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ -989.78167724609375, 726.1015625, 4.2281250953674316 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -345.81094360351562, -515.4781494140625, 597.04217529296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 23892,
+			"name": "Partition verdoyante",
+			"transform":
+			{
+				"location": [ -5.7867379188537598, -751.86285400390625, -488.1910400390625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7979,
+			"name": "Cloison verdoyante",
+			"transform":
+			{
+				"location": [ 205.68521118164062, -659.54241943359375, -0.005954299122095108 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7979,
+			"name": "Cloison verdoyante",
+			"transform":
+			{
+				"location": [ -229.34172058105469, -643.3607177734375, -0.0071626082062721252 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7975,
+			"name": "Pot de dragonnier",
+			"transform":
+			{
+				"location": [ -198.4298095703125, -643.91729736328125, -101.88087463378906 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6634,
+			"name": "Cheminée du Manoir",
+			"transform":
+			{
+				"location": [ -453.8203125, -147.38124084472656, 85.481246948242188 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 28639,
+			"name": "Canapé en cuir",
+			"transform":
+			{
+				"location": [ 84.010093688964844, -154.48829650878906, 3.6116123199462891 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -181.01441955566406, -147.33770751953125, 0.0090459678322076797 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "656565FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.85000610351562, -322.171875, 298.12811279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.8515625, -64.962501525878906, 298.12811279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 9717,
+			"name": "Matsu-bonsaï",
+			"transform":
+			{
+				"location": [ -133.8485107421875, -234.69355773925781, 66.381546020507812 ],
+				"rotation": [ -0, 0, -0.85940642579853421, 0.5112930620458177 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 6634,
+			"name": "Cheminée du Manoir",
+			"transform":
+			{
+				"location": [ -453.81875610351562, -255.13661193847656, 85.481246948242188 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 6634,
+			"name": "Cheminée du Manoir",
+			"transform":
+			{
+				"location": [ -453.81716918945312, -67.2982177734375, 85.481246948242188 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -345.26556396484375, -234.16069030761719, -256.09652709960938 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.79180908203125, 697.2318115234375, -0.0036976456176489592 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -534.008056640625, 112.80284118652344, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -430.484375, -21.714067459106445, 0 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -533.963134765625, -426.399169921875, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -558.99688720703125, -487.8343505859375, 297.9000244140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -558.99688720703125, -92.498435974121094, 297.8984375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -430.484375, -312.63436889648438, -0.006696017924696207 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.8515625, 301.44122314453125, 0.009986434131860733 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 35577,
+			"name": "Lampe murale suspendue",
+			"transform":
+			{
+				"location": [ 793.5904541015625, -266.14373779296875, 387.44216918945312 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 35577,
+			"name": "Lampe murale suspendue",
+			"transform":
+			{
+				"location": [ 901.10528564453125, -266.14373779296875, 387.44216918945312 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 35577,
+			"name": "Lampe murale suspendue",
+			"transform":
+			{
+				"location": [ 1002.06640625, -266.14373779296875, 387.44216918945312 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 35577,
+			"name": "Lampe murale suspendue",
+			"transform":
+			{
+				"location": [ 688.26251220703125, -266.14373779296875, 387.44216918945312 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 30403,
+			"name": "Poutrelle usine désaffectée",
+			"transform":
+			{
+				"location": [ 1002.57470703125, -266.13641357421875, 393.28732299804688 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ 623.5859375, -267.28436279296875, 411.4609375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "28211CFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ 987.93438720703125, -268.03594970703125, 411.4609375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22559,
+			"name": "Tabouret de bar",
+			"transform":
+			{
+				"location": [ 685.1263427734375, -366.4769287109375, 1.7005205154418945 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 22559,
+			"name": "Tabouret de bar",
+			"transform":
+			{
+				"location": [ 695.14727783203125, -150.80427551269531, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ 706.08282470703125, -273.19732666015625, 82.069694519042969 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 626.76556396484375, -257.44235229492188, -565.99285888671875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20734,
+			"name": "Bibliothèque hingashienne",
+			"transform":
+			{
+				"location": [ 922.02813720703125, -274.1484375, -238.984375 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20734,
+			"name": "Bibliothèque hingashienne",
+			"transform":
+			{
+				"location": [ 922.0296630859375, -311.77145385742188, -239.00001525878906 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ 705.75335693359375, -233.41567993164062, 83.025779724121094 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 28145,
+			"name": "Tireuse à bière",
+			"transform":
+			{
+				"location": [ 648.97991943359375, -723.70709228515625, 128.6627197265625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 37.874309539794922, 749.69866943359375, 3.2948970794677734 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 32214,
+			"name": "Évier antique",
+			"transform":
+			{
+				"location": [ 609.7862548828125, -657.2652587890625, 51.4296875 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 28967,
+			"name": "Casier à bouteilles",
+			"transform":
+			{
+				"location": [ 379.60073852539062, -652.77777099609375, 129.40501403808594 ],
+				"rotation": [ -0, 0, -0.10019071556404828, 0.99496825100842479 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -192.48185729980469, -597.2984619140625, -213.04061889648438 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 146.94630432128906, -597.2984619140625, -213.04061889648438 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 35561,
+			"name": "Cascade d'intérieur orientale",
+			"transform":
+			{
+				"location": [ -13.74785041809082, -704.2498779296875, -146.34202575683594 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.8515625, -615.18695068359375, 0 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 28639,
+			"name": "Canapé en cuir",
+			"transform":
+			{
+				"location": [ -141.14779663085938, -415.48556518554688, 0.00028168567223474383 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 30410,
+			"name": "Lit en alcôve en marbre",
+			"transform":
+			{
+				"location": [ 564.86151123046875, -671.359375, -519.79534912109375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 29683,
+			"name": "Cafetière à siphon",
+			"transform":
+			{
+				"location": [ 1014.5758666992188, -607.54376220703125, 95.423439025878906 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 29683,
+			"name": "Cafetière à siphon",
+			"transform":
+			{
+				"location": [ 993.73797607421875, -607.54376220703125, 95.423439025878906 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 29683,
+			"name": "Cafetière à siphon",
+			"transform":
+			{
+				"location": [ 847.03009033203125, -607.54376220703125, 95.423439025878906 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 991.613037109375, -608.07501220703125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ 1004.0556030273438, -598.7249755859375, -103.94065093994141 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ 856.4818115234375, -598.7249755859375, -121.84107208251953 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ 929.29437255859375, -598.7249755859375, -14.520313262939453 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 802.34747314453125, -797.17974853515625, 0 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 29683,
+			"name": "Cafetière à siphon",
+			"transform":
+			{
+				"location": [ 866.274169921875, -607.54376220703125, 95.423439025878906 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 350.26318359375, -721.65936279296875, 597.12969970703125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ -52.399452209472656, -529.61090087890625, 301.15625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ -232.3106689453125, -529.61248779296875, 301.15625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ 128.02861022949219, -529.61248779296875, 301.15625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 27296,
+			"name": "Rampe en bois",
+			"transform":
+			{
+				"location": [ 219.16224670410156, -529.61248779296875, 301.15625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 28134,
+			"name": "Tapis imitation de parquet",
+			"transform":
+			{
+				"location": [ -157.15495300292969, -721.4703369140625, 297.9000244140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 539.8828125, -532.05157470703125, 298.12811279296875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 854.68121337890625, -723.5218505859375, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 870.74530029296875, -532.05316162109375, 298.12811279296875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 870.74530029296875, -532.05316162109375, 597.44793701171875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 539.9453125, -532.05157470703125, 597.12969970703125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 1081.6077880859375, -639.76873779296875, 298.12811279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 539.88214111328125, -723.5240478515625, 0.00066276825964450836 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 28134,
+			"name": "Tapis imitation de parquet",
+			"transform":
+			{
+				"location": [ 481.76690673828125, -720.97344970703125, 297.9000244140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ 1081.8936767578125, -639.76873779296875, 0 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 28134,
+			"name": "Tapis imitation de parquet",
+			"transform":
+			{
+				"location": [ 95.410392761230469, -721.39556884765625, 297.9000244140625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "E9E3DAFF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 39.381252288818359, 726.10003662109375, 273.43124389648438 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 452.1396484375, 103.50762939453125, -77.0546875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 6638,
+			"name": "Lanterne thanalanaise",
+			"transform":
+			{
+				"location": [ -195.18133544921875, 493.77392578125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 23864,
+			"name": "Cornouiller domien",
+			"transform":
+			{
+				"location": [ -248.35420227050781, 509.62307739257812, -301.5399169921875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20740,
+			"name": "Pot de bambous",
+			"transform":
+			{
+				"location": [ -332.65240478515625, 680.2823486328125, -292.57830810546875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 24512,
+			"name": "Escalier en bois",
+			"transform":
+			{
+				"location": [ -322.28125, 300.21530151367188, 106.74788665771484 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -344.85000610351562, 334.9921875, 298.12811279296875 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 468.03189086914062, 4.5625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 337.75192260742188, 4.5812497138977051 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 424.2398681640625, 4.6062498092651367 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 380.21029663085938, 4.5437498092651367 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 510.49288940429688, 4.5499997138977051 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 551.236083984375, 0.0060415612533688545 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 590.20538330078125, 4.40625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 664.96026611328125, 4.2062497138977051 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15621948242188, 627.8272705078125, 4.3390622138977051 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 35572,
+			"name": "Poteau de danse",
+			"transform":
+			{
+				"location": [ -140.15625, 702.22296142578125, 4.9343748092651367 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 24512,
+			"name": "Escalier en bois",
+			"transform":
+			{
+				"location": [ -322.28125, 467.1390380859375, 260.32550048828125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -329.6319580078125, 294.27960205078125, -291.08047485351562 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 15976,
+			"name": "Tapis de laine peignée",
+			"transform":
+			{
+				"location": [ -349.72976684570312, 513.58624267578125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -330.75469970703125, 714.7589111328125, -291.09841918945312 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -142.04747009277344, 504.7393798828125, -291.09841918945312 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "1E1E1EFF"
+			}
+		},
+		{
+			"itemId": 28134,
+			"name": "Tapis imitation de parquet",
+			"transform":
+			{
+				"location": [ -322.13055419921875, 735.2470703125, 295.49761962890625 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 24514,
+			"name": "Partition extra-blanche",
+			"transform":
+			{
+				"location": [ -345.27017211914062, -50.338417053222656, -256.09811401367188 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 388.09268188476562, 95.697364807128906, -0.0059289759956300259 ],
+				"rotation": [ 0, -0, 0.11753852500430405, 0.99306832350035823 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 371.5859375, 428.19808959960938, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 533.00225830078125, 116.71693420410156, 0.0052093369886279106 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20310,
+			"name": "Fenêtre rectangulaire en trompe-l'œil",
+			"transform":
+			{
+				"location": [ 674.42266845703125, 68.313713073730469, 260.87362670898438 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 1159.012451171875, -127.54855346679688, 0.0059019704349339008 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 1159.012451171875, -294.6397705078125, 0.0039682099595665932 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 13336,
+			"name": "Peluche de Mog luxueuse",
+			"transform":
+			{
+				"location": [ -1002.2999877929688, 484.311279296875, 392.1517333984375 ],
+				"rotation": [ -0, 0, -0.68835439472692361, 0.72537454274335467 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 7975,
+			"name": "Pot de dragonnier",
+			"transform":
+			{
+				"location": [ 206.33998107910156, -656.355224609375, -118.62570190429688 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 371.5859375, 254.85868835449219, 0.0071333618834614754 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 360.0345458984375, 120.74624633789062, -0.00040113413706421852 ],
+				"rotation": [ 0, -0, 0.5664065616730346, 0.82412596542866601 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 332.00726318359375, 287.98931884765625, 0.0077840196900069714 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 1110.1015625, -308.35781860351562, 535.53594970703125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 1110.1015625, -46.384376525878906, 535.5374755859375 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 17028,
+			"name": "Cloison de séparation blanc cassé",
+			"transform":
+			{
+				"location": [ 1093.0908203125, 228.51812744140625, 0 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 338.171875, 368.74530029296875, 535.53594970703125 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 28134,
+			"name": "Tapis imitation de parquet",
+			"transform":
+			{
+				"location": [ 869.07989501953125, -720.8028564453125, 298.11322021484375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 338.1875, 596.89373779296875, 535.5374755859375 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 395.16094970703125, 81.432815551757812, 535.53594970703125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 1123.465576171875, -308.35781860351562, -76.431251525878906 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 656.7484130859375, 83.459381103515625, 535.7313232421875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 1123.4671630859375, -46.384376525878906, -76.432815551757812 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 916.6734619140625, 83.4609375, 535.5374755859375 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 1110.0999755859375, -568.88751220703125, 535.5374755859375 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 338.1875, 140.91717529296875, 535.53436279296875 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 362.30584716796875, 368.79232788085938, -76.864067077636719 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 656.7484130859375, 103.49697875976562, -77.053123474121094 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 14055,
+			"name": "Pot de fleurs noscéen",
+			"transform":
+			{
+				"location": [ -1002.2929077148438, 662.363037109375, 392.53927612304688 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 362.30877685546875, 596.89373779296875, -76.862503051757812 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 548.06451416015625, 73.179496765136719, -0.0086449747905135155 ],
+				"rotation": [ -0, 0, -0.9999999999998862, 4.7683715826433922e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 878.2579345703125, 72.095840454101562, -43.144775390625 ],
+				"rotation": [ -0, 0, -0.9999999999998862, 4.7683715826433922e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 1106.4036865234375, 46.320503234863281, 38.977325439453125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 332.00726318359375, 397.770263671875, 0.0083023570477962494 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 35573,
+			"name": "Étagère murale vieillie",
+			"transform":
+			{
+				"location": [ 705.1290283203125, -240.602294921875, 82.97479248046875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 362.30517578125, 191.96246337890625, -76.862503051757812 ],
+				"rotation": [ -0, 0, -0.70710660237258749, 0.70710696000046247 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 331.84072875976562, 726.1015625, 0.0099120605736970901 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 20733,
+			"name": "Penderie hingashienne",
+			"transform":
+			{
+				"location": [ 916.6734619140625, 103.42828369140625, -77.0546875 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 1159.012451171875, -294.6397705078125, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 17028,
+			"name": "Cloison de séparation blanc cassé",
+			"transform":
+			{
+				"location": [ 325.55166625976562, 789.7216796875, -0.0049878065474331379 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 29683,
+			"name": "Cafetière à siphon",
+			"transform":
+			{
+				"location": [ 127.29286193847656, 743.75860595703125, 134.39678955078125 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ -195.09219360351562, 726.1015625, -0.0086708609014749527 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 1106.4036865234375, -271.89642333984375, 38.977325439453125 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 6646,
+			"name": "Pot de phalangère",
+			"transform":
+			{
+				"location": [ -217.34361267089844, 412.58740234375, -77.122116088867188 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 22572,
+			"name": "Fausse fenêtre de papier hingashienne",
+			"transform":
+			{
+				"location": [ 6.3281207084655762, 746.800537109375, 136.90794372558594 ],
+				"rotation": [ -0, 0, -0.99999999999993594, 3.5762789002985053e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "3D290DFF"
+			}
+		},
+		{
+			"itemId": 21839,
+			"name": "Panneau de décor",
+			"transform":
+			{
+				"location": [ 878.2579345703125, 72.095840454101562, -43.144775390625 ],
+				"rotation": [ -0, 0, -0.9999999999998862, 4.7683715826433922e-07 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "2B2923FF"
+			}
+		},
+		{
+			"itemId": 9719,
+			"name": "Baignoire orientale",
+			"transform":
+			{
+				"location": [ -881.70843505859375, -26.600738525390625, 0 ],
+				"rotation": [ 0, 0, 0, 1 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+			}
+		},
+		{
+			"itemId": 32226,
+			"name": "Cloison en lattes de bois",
+			"transform":
+			{
+				"location": [ 813.93743896484375, 113.18372344970703, -0.0099388528615236282 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "F9F8F4FF"
+			}
+		},
+		{
+			"itemId": 23894,
+			"name": "Panneau en céramique",
+			"transform":
+			{
+				"location": [ -733.24566650390625, 97.799957275390625, 100.86509704589844 ],
+				"rotation": [ 0, -0, 0.70710651296560201, 0.70710704940739144 ],
+				"scale": [ 1, 1, 1 ]
+			},
+			"properties":
+			{
+				"color": "781A1AFF"
+			}
+		}
+	],
+	"properties":
+	{
+	}
+}

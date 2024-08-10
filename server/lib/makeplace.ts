@@ -8,7 +8,7 @@ const MakePlaceFixtureValidation = z.object({
 
 type MakePlaceFixture = z.infer<typeof MakePlaceFixtureValidation>;
 
-const MakePlaceFurnitureValidation = z.object({
+const MakePlaceFurnitureBaseValidation = z.object({
   itemId: z.number(),
   name: z.string().optional(),
   properties: z.object({
@@ -19,7 +19,14 @@ const MakePlaceFurnitureValidation = z.object({
   }),
 });
 
-type MakePlaceFurniture = z.infer<typeof MakePlaceFurnitureValidation>;
+type MakePlaceFurniture = z.infer<typeof MakePlaceFurnitureBaseValidation> & {
+  attachments?: MakePlaceFurniture[],
+};
+
+// eslint-disable-next-line vue/max-len
+const MakePlaceFurnitureValidation: z.ZodType<MakePlaceFurniture> = MakePlaceFurnitureBaseValidation.extend({
+  attachements: z.lazy(() => MakePlaceFurnitureValidation.array().optional()),
+});
 
 export const MakePlaceSchemaValidation = z.object({
   exteriorFixture: z.array(MakePlaceFixtureValidation),
@@ -91,6 +98,7 @@ export type ParsedList = (ParsedListItem | ParsedListDye)[];
 export function parseSchema(schema: MakePlaceSchema) {
   const parsedItems = new Map<number, ParsedListItem>();
   const parsedColors = new Map<string, ParsedListDye>();
+  const unknownColors = new Map<string, string>();
 
   /**
    * Add a dye to the list
@@ -98,8 +106,14 @@ export function parseSchema(schema: MakePlaceSchema) {
    * @param color The hex color from MakePlace
    */
   const addDye = (color: string) => {
-    const item = dyesMap.get(`#${color.slice(0, 6)}`);
+    if (!color) {
+      return;
+    }
+
+    const hex = `#${color.slice(0, 6)}`.toLowerCase();
+    const item = dyesMap.get(hex as Lowercase<`#${string}`>);
     if (!item) {
+      unknownColors.set(hex, color);
       return;
     }
 
@@ -130,21 +144,6 @@ export function parseSchema(schema: MakePlaceSchema) {
   };
 
   /**
-   * Add an fixture to the list
-   *
-   * @param fixture The fixture
-   */
-  const addFixtureItem = (fixture: MakePlaceFixture, type: 'exterior-fixture' | 'interior-fixture') => {
-    if (!fixture) {
-      return;
-    }
-
-    if (fixture.itemId) {
-      addItem(fixture, type);
-    }
-  };
-
-  /**
    * Add an furniture to the list
    *
    * @param fixture The furniture
@@ -165,6 +164,25 @@ export function parseSchema(schema: MakePlaceSchema) {
     if (furniture.properties?.color) {
       addDye(furniture.properties.color);
     }
+
+    if (furniture.attachments) {
+      furniture.attachments.forEach((attachment) => { addFurnitureItem(attachment, type); });
+    }
+  };
+
+  /**
+   * Add an fixture to the list
+   *
+   * @param fixture The fixture
+   */
+  const addFixtureItem = (fixture: MakePlaceFixture, type: 'exterior-fixture' | 'interior-fixture') => {
+    if (!fixture) {
+      return;
+    }
+
+    if (fixture.itemId) {
+      addItem(fixture, type);
+    }
   };
 
   // Parse furniture
@@ -178,5 +196,6 @@ export function parseSchema(schema: MakePlaceSchema) {
   return {
     items: Array.from(parsedItems.values()),
     dyes: Array.from(parsedColors.values()),
+    unknownDyes: Array.from(unknownColors.entries()).map(([color, raw]) => ({ color, raw })),
   };
 }
