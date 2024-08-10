@@ -16,7 +16,9 @@ export const dyesMap = new Map<Lowercase<`#${string}`>, Dye>([
   ['#898784', { id: 5731, name: 'Goobbue Grey', color: '#898784' }],
   ['#656565', { id: 5732, name: 'Slate Grey', color: '#656565' }],
   ['#e4dfd0', { id: 5729, name: 'Snow White', color: '#e4dfd0' }],
+  ['#e9e3da', { id: 5729, name: 'Snow White', color: '#e9e3da' }], // ? Unsure
   ['#2b2923', { id: 5734, name: 'Soot Black', color: '#2b2923' }],
+  ['#1e1e1e', { id: 8733, name: 'Jet Black', color: '#1e1e1e' }],
   ['#913b27', { id: 5742, name: 'Blood Red', color: '#913b27' }],
   ['#cc6c5e', { id: 5741, name: 'Coral Pink', color: '#cc6c5e' }],
   ['#781a1a', { id: 5738, name: 'Dalamud Red', color: '#781a1a' }],
@@ -31,6 +33,7 @@ export const dyesMap = new Map<Lowercase<`#${string}`>, Dye>([
   ['#8e581b', { id: 5755, name: 'Acorn Brown', color: '#8e581b' }],
   ['#a2875c', { id: 5753, name: 'Aldgoat Brown', color: '#a2875c' }],
   ['#6a4b37', { id: 5746, name: 'Bark Brown', color: '#6a4b37' }],
+  ['#28211c', { id: 8736, name: 'Dark Brown', color: '#28211c' }],
   ['#3d290d', { id: 5757, name: 'Chestnut Brown', color: '#3d290d' }],
   ['#6e3d24', { id: 5747, name: 'Chocolate Brown', color: '#6e3d24' }],
   ['#c99156', { id: 5750, name: 'Cork Brown', color: '#c99156' }],
@@ -104,6 +107,6 @@ export const dyesMap = new Map<Lowercase<`#${string}`>, Dye>([
   ['#66304e', { id: 5813, name: 'Regal Purple', color: '#66304e' }],
   ['#181820', { id: 30122, name: 'Gunmetal Black', color: '#181820' }],
   ['#bfb4a3', { id: 30123, name: 'Pearl White', color: '#bfb4a3' }],
-  ['#f9f8f4', { id: 8732, name: 'Pure White', color: '#bfb4a3' }],
+  ['#f9f8f4', { id: 8732, name: 'Pure White', color: '#f9f8f4' }],
   ['#e9c06f', { id: 30124, name: 'Metallic Brass', color: '#e9c06f' }],
 ]);
