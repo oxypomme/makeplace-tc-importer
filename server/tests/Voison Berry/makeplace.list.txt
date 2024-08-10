@@ -1,0 +1,174 @@
+      Meubles
+=====================
+Cloison blanche: 2
+Bibliothèque hingashienne: 4
+Lanterne sombrelinçoise: 17
+Décoration murale de lierre: 7
+Escalier en bois: 5
+Spécimen de papillon: 2
+Serviettes de bain: 1
+Livre ouvert: 1
+Dressoir hingashien: 3
+Panier à linge: 1
+Articles mignons: 1
+Mémoquartz allagois de table: 1
+Guirlande étoilée: 5
+Tasse de café filtre: 1
+Petit déjeuner ishgardais: 1
+Goûter ishgardais: 1
+Pot de dragonnier: 3
+Vase somptueux du Château dimensionnel: 1
+Planche à découper: 1
+Lampe mog mignonne: 1
+Canapé en cuir: 4
+Quinquet de Nym: 4
+Buffet hingashien: 2
+Tabouret de bar: 3
+Support à livre de correspondance: 1
+Lit en alcôve en marbre: 2
+Cloison en lattes de bois: 14
+Étagère murale vieillie: 6
+Vase imposant du Château dimensionnel: 1
+Pot de phalangère: 2
+Pot de fleurs noscéen: 2
+Patère à tabliers: 1
+Fausse fenêtre de papier hingashienne: 3
+Paillasson thanalanais: 1
+Tapis en céramique: 1
+Panneau en céramique: 4
+Rampe en bois: 6
+Vasque sur pied: 1
+Estrade de luxe: 3
+Partition extra-blanche: 68
+Tapis de laine peignée: 10
+Store en bois: 5
+Panneau de décor: 13
+Lit de plume double: 1
+Paysage magique: Mer de Rubis: 3
+Partition verdoyante: 1
+Cloison verdoyante: 2
+Cheminée du Manoir: 3
+Matsu-bonsaï: 1
+Lampe murale suspendue: 4
+Poutrelle usine désaffectée: 1
+Poteau de danse: 15
+Tireuse à bière: 1
+Évier antique: 1
+Casier à bouteilles: 1
+Cascade d'intérieur orientale: 1
+Cafetière à siphon: 5
+Tapis imitation de parquet: 5
+Penderie hingashienne: 17
+Lanterne thanalanaise: 1
+Cornouiller domien: 1
+Pot de bambous: 1
+Fenêtre rectangulaire en trompe-l'œil: 1
+Peluche de Mog luxueuse: 1
+Cloison de séparation blanc cassé: 2
+Baignoire orientale: 1
+
+     Teintures
+=====================
+Teinture blanc immaculé extra: 31
+Teinture blanc neige: 26
+Teinture brun châtaigne: 26
+Teinture brun foncé extra: 15
+Teinture brun taupe: 5
+Teinture gris ardoise: 34
+Teinture noir de jais extra: 17
+Teinture noir suie: 37
+Teinture rouge Dalamud: 4
+
+Meubles (avec teintures)
+=====================
+Articles mignons: 1
+Baignoire orientale: 1
+Bibliothèque hingashienne (Teinture blanc immaculé extra): 2
+Bibliothèque hingashienne (Teinture brun foncé extra): 2
+Buffet hingashien (Teinture blanc neige): 1
+Buffet hingashien (Teinture brun châtaigne): 1
+Cafetière à siphon: 5
+Canapé en cuir (Teinture blanc immaculé extra): 1
+Canapé en cuir (Teinture blanc neige): 3
+Cascade d'intérieur orientale: 1
+Casier à bouteilles (Teinture brun châtaigne): 1
+Cheminée du Manoir (Teinture brun foncé extra): 3
+Cloison blanche: 2
+Cloison de séparation blanc cassé (Teinture blanc immaculé extra): 1
+Cloison de séparation blanc cassé (Teinture noir suie): 1
+Cloison en lattes de bois (Teinture blanc immaculé extra): 10
+Cloison en lattes de bois (Teinture noir suie): 4
+Cloison verdoyante: 2
+Cornouiller domien: 1
+Dressoir hingashien (Teinture brun foncé extra): 1
+Dressoir hingashien (Teinture noir suie): 2
+Décoration murale de lierre (Teinture blanc immaculé extra): 4
+Décoration murale de lierre (Teinture blanc neige): 1
+Décoration murale de lierre (Teinture gris ardoise): 2
+Escalier en bois (Teinture brun châtaigne): 2
+Escalier en bois (Teinture noir suie): 3
+Estrade de luxe (Teinture noir suie): 3
+Fausse fenêtre de papier hingashienne (Teinture brun châtaigne): 3
+Fenêtre rectangulaire en trompe-l'œil (Teinture noir suie): 1
+Goûter ishgardais: 1
+Guirlande étoilée: 5
+Lampe mog mignonne: 1
+Lampe murale suspendue (Teinture brun foncé extra): 4
+Lanterne sombrelinçoise: 17
+Lanterne thanalanaise: 1
+Lit de plume double: 1
+Lit en alcôve en marbre (Teinture noir de jais extra): 1
+Lit en alcôve en marbre (Teinture noir suie): 1
+Livre ouvert: 1
+Matsu-bonsaï: 1
+Mémoquartz allagois de table: 1
+Paillasson thanalanais: 1
+Panier à linge: 1
+Panneau de décor: 1
+Panneau de décor (Teinture gris ardoise): 2
+Panneau de décor (Teinture noir suie): 10
+Panneau en céramique (Teinture rouge Dalamud): 4
+Partition extra-blanche (Teinture blanc immaculé extra): 7
+Partition extra-blanche (Teinture blanc neige): 15
+Partition extra-blanche (Teinture brun foncé extra): 2
+Partition extra-blanche (Teinture gris ardoise): 29
+Partition extra-blanche (Teinture noir de jais extra): 3
+Partition extra-blanche (Teinture noir suie): 12
+Partition verdoyante: 1
+Patère à tabliers: 1
+Paysage magique: Mer de Rubis: 3
+Peluche de Mog luxueuse: 1
+Penderie hingashienne (Teinture brun châtaigne): 17
+Petit déjeuner ishgardais: 1
+Planche à découper: 1
+Pot de bambous: 1
+Pot de dragonnier: 3
+Pot de fleurs noscéen: 2
+Pot de phalangère: 2
+Poteau de danse: 1
+Poteau de danse (Teinture brun foncé extra): 1
+Poteau de danse (Teinture noir de jais extra): 13
+Poutrelle usine désaffectée: 1
+Quinquet de Nym: 4
+Rampe en bois (Teinture blanc immaculé extra): 1
+Rampe en bois (Teinture blanc neige): 3
+Rampe en bois (Teinture brun foncé extra): 2
+Serviettes de bain: 1
+Spécimen de papillon: 2
+Store en bois (Teinture brun taupe): 5
+Support à livre de correspondance: 1
+Tabouret de bar (Teinture blanc immaculé extra): 3
+Tapis de laine peignée: 8
+Tapis de laine peignée (Teinture blanc immaculé extra): 1
+Tapis de laine peignée (Teinture gris ardoise): 1
+Tapis en céramique: 1
+Tapis imitation de parquet (Teinture blanc immaculé extra): 1
+Tapis imitation de parquet (Teinture blanc neige): 3
+Tapis imitation de parquet (Teinture brun châtaigne): 1
+Tasse de café filtre: 1
+Tireuse à bière: 1
+Vase imposant du Château dimensionnel: 1
+Vase somptueux du Château dimensionnel: 1
+Vasque sur pied: 1
+Étagère murale vieillie: 6
+Évier antique (Teinture brun châtaigne): 1
