@@ -25,7 +25,7 @@ type MakePlaceFurniture = z.infer<typeof MakePlaceFurnitureBaseValidation> & {
 
 // eslint-disable-next-line vue/max-len
 const MakePlaceFurnitureValidation: z.ZodType<MakePlaceFurniture> = MakePlaceFurnitureBaseValidation.extend({
-  attachements: z.lazy(() => MakePlaceFurnitureValidation.array().optional()),
+  attachments: z.lazy(() => z.array(MakePlaceFurnitureValidation).optional()),
 });
 
 export const MakePlaceSchemaValidation = z.object({

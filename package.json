@@ -20,9 +20,11 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.3.13",
+    "@nuxt/test-utils": "^3.14.0",
     "@vue/eslint-config-airbnb-with-typescript": "^8.0.0",
     "eslint": "^8.57.0",
     "fast-glob": "^3.3.2",
+    "happy-dom": "^14.12.3",
     "vite-plugin-vuetify": "^2.0.3",
     "vitest": "^2.0.5",
     "vuetify": "^3.6.12"

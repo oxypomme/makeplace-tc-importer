@@ -3,10 +3,10 @@ import { createReadStream } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { createInterface } from 'node:readline/promises';
 
-import { describe, assert } from 'vitest';
+import { describe, assert, beforeAll } from 'vitest';
 import glob from 'fast-glob';
 
-import { ParsedList, parseSchema } from './makeplace';
+import { type ParsedList, parseSchema } from './makeplace';
 
 const testDirs = (await glob(
   './server/tests/*',
@@ -73,9 +73,14 @@ describe.each(testDirs)('$name', async ({ dir }) => {
 
   const expectedFile = await readFile(expectedPath, 'utf-8');
   const expected = JSON.parse(expectedFile);
-  const list = await parseList(listPath);
 
   describe('parseList', (test) => {
+    let list: Awaited<ReturnType<typeof parseList>>;
+
+    beforeAll(async () => {
+      list = await parseList(listPath);
+    });
+
     test('should return same count of result', () => {
       assert.isArray(list.items);
       assert.lengthOf(list.items, expected.items);
@@ -88,8 +93,16 @@ describe.each(testDirs)('$name', async ({ dir }) => {
   describe('parseSchema', async () => {
     const schemaPath = path.join(dir, 'makeplace.json');
     const schemaFile = await readFile(schemaPath, 'utf-8');
-    const schema = JSON.parse(schemaFile);
-    const parsed = parseSchema(schema);
+
+    let list: Awaited<ReturnType<typeof parseList>>;
+    let parsed: Awaited<ReturnType<typeof parseSchema>>;
+
+    beforeAll(async () => {
+      list = await parseList(listPath);
+
+      const schema = JSON.parse(schemaFile);
+      parsed = parseSchema(schema);
+    });
 
     describe('items', (test) => {
       test('should return array', () => {
@@ -97,6 +110,17 @@ describe.each(testDirs)('$name', async ({ dir }) => {
       });
 
       test('should return at least the same count', () => {
+        assert.isAtLeast(parsed.items.length, list.items.length);
+      });
+
+      test('should return at least the same quantity', () => {
+        const qteMap = new Map(parsed.items.map(({ item, qte }) => [item.name, qte]));
+        // eslint-disable-next-line no-restricted-syntax
+        for (const { item, qte } of list.items) {
+          const v = qteMap.get(item.name);
+          assert.isNumber(v);
+          assert.isAtLeast(v ?? 0, qte);
+        }
         assert.isAtLeast(parsed.items.length, list.items.length);
       });
 

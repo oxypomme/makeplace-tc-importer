@@ -10,7 +10,8 @@ dist
 node_modules
 
 # Logs
-logs
+logs/*
+!logs/.gitkeep
 *.log
 
 # Misc
