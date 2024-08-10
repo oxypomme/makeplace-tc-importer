@@ -19,8 +19,15 @@ export default defineEventHandler(async (event) => {
 
     // Parse makeplace file
     appLogger.debug('Parsing MakePlace schema...');
-    const { items, dyes } = parseSchema(result.data);
+    const { items, dyes, unknownDyes } = parseSchema(result.data);
     appLogger.info({ msg: 'MakePlace schema parsed !', items: items.length, dyes: dyes.length });
+    if (unknownDyes.length > 0) {
+      appLogger.warn({
+        msg: 'Unknown dyes found',
+        count: unknownDyes.length,
+        dyes: unknownDyes,
+      });
+    }
 
     // Enrich items
     appLogger.debug('Enriching items...');
