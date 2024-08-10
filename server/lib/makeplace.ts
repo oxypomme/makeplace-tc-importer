@@ -98,6 +98,7 @@ export type ParsedList = (ParsedListItem | ParsedListDye)[];
 export function parseSchema(schema: MakePlaceSchema) {
   const parsedItems = new Map<number, ParsedListItem>();
   const parsedColors = new Map<string, ParsedListDye>();
+  const unknownColors = new Map<string, string>();
 
   /**
    * Add a dye to the list
@@ -105,8 +106,14 @@ export function parseSchema(schema: MakePlaceSchema) {
    * @param color The hex color from MakePlace
    */
   const addDye = (color: string) => {
-    const item = dyesMap.get(`#${color.slice(0, 6)}`);
+    if (!color) {
+      return;
+    }
+
+    const hex = `#${color.slice(0, 6)}`.toLowerCase();
+    const item = dyesMap.get(hex as Lowercase<`#${string}`>);
     if (!item) {
+      unknownColors.set(hex, color);
       return;
     }
 
@@ -189,5 +196,6 @@ export function parseSchema(schema: MakePlaceSchema) {
   return {
     items: Array.from(parsedItems.values()),
     dyes: Array.from(parsedColors.values()),
+    unknownDyes: Array.from(unknownColors.entries()).map(([color, raw]) => ({ color, raw })),
   };
 }

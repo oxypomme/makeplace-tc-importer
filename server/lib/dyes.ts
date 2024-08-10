@@ -4,7 +4,13 @@ export type Dye = {
   color: string;
 };
 
-export const dyesMap = new Map<`#${string}`, Dye>([
+/**
+ * Dyes map
+ *
+ * Extracted from: https://ffxiv.eorzeacollection.com/dyes CSS
+ * Then get data using: `https://xivapi.com/search?string=<NAME>&filters=ItemUICategoryTargetID=55`
+ */
+export const dyesMap = new Map<Lowercase<`#${string}`>, Dye>([
   ['#aca8a2', { id: 5730, name: 'Ash Grey', color: '#aca8a2' }],
   ['#484742', { id: 5733, name: 'Charcoal Grey', color: '#484742' }],
   ['#898784', { id: 5731, name: 'Goobbue Grey', color: '#898784' }],
@@ -67,6 +73,7 @@ export const dyesMap = new Map<`#${string}`, Dye>([
   ['#4b5232', { id: 5776, name: 'Olive Green', color: '#4b5232' }],
   ['#bbbb8a', { id: 5772, name: 'Sylph Green', color: '#bbbb8a' }],
   ['#437272', { id: 5786, name: 'Turquoise Green', color: '#437272' }],
+  ['#152c2c', { id: 8738, name: 'Dark Green', color: '#152c2c' }],
   ['#312d57', { id: 5804, name: 'Abyssal Blue', color: '#312d57' }],
   ['#4f5766', { id: 5794, name: 'Ceruleum Blue', color: '#4f5766' }],
   ['#8e9bac', { id: 5793, name: 'Corpse Blue', color: '#8e9bac' }],
@@ -97,5 +104,6 @@ export const dyesMap = new Map<`#${string}`, Dye>([
   ['#66304e', { id: 5813, name: 'Regal Purple', color: '#66304e' }],
   ['#181820', { id: 30122, name: 'Gunmetal Black', color: '#181820' }],
   ['#bfb4a3', { id: 30123, name: 'Pearl White', color: '#bfb4a3' }],
+  ['#f9f8f4', { id: 8732, name: 'Pure White', color: '#bfb4a3' }],
   ['#e9c06f', { id: 30124, name: 'Metallic Brass', color: '#e9c06f' }],
 ]);
