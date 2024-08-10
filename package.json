@@ -7,7 +7,8 @@
     "dev": "nuxt dev --inspect",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -21,7 +22,9 @@
     "@nuxt/eslint-config": "^0.3.13",
     "@vue/eslint-config-airbnb-with-typescript": "^8.0.0",
     "eslint": "^8.57.0",
+    "fast-glob": "^3.3.2",
     "vite-plugin-vuetify": "^2.0.3",
+    "vitest": "^2.0.5",
     "vuetify": "^3.6.12"
   }
 }
