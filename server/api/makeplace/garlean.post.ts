@@ -31,19 +31,26 @@ export default defineEventHandler(async (event) => {
 
     // Enrich items
     appLogger.debug('Enriching items...');
-    const dyesIds = new Set(dyes.map(({ item }) => item.id));
-    const enriched = await enrichItems([...items, ...dyes]);
-    const enrichedDyes = [];
-    const enrichedItems = [];
-    // eslint-disable-next-line no-restricted-syntax
-    for (const item of enriched) {
-      if (dyesIds.has(item.item.id)) {
-        enrichedDyes.push(item);
-      } else {
-        enrichedItems.push(item);
+    let enrichedDyes;
+    let enrichedItems;
+    try {
+      const dyesIds = new Set(dyes.map(({ item }) => item.id));
+      const enriched = await enrichItems([...items, ...dyes]);
+
+      enrichedDyes = [];
+      enrichedItems = [];
+      // eslint-disable-next-line no-restricted-syntax
+      for (const item of enriched) {
+        if (dyesIds.has(item.item.id)) {
+          enrichedDyes.push(item);
+        } else {
+          enrichedItems.push(item);
+        }
       }
+      appLogger.info({ msg: 'Items enriched !', items: enrichedItems.length, dyes: enrichedDyes.length });
+    } catch (error) {
+      appLogger.error({ msg: 'Error while enriching items', error });
     }
-    appLogger.info({ msg: 'Items enriched !', items: enrichedItems.length, dyes: enrichedDyes.length });
 
     let { name } = getQuery(event);
     if (Array.isArray(name)) {
@@ -54,12 +61,12 @@ export default defineEventHandler(async (event) => {
     }
 
     return {
-      dyes: enrichedDyes,
-      items: enrichedItems,
+      dyes: enrichedDyes || dyes,
+      items: enrichedItems || items,
       link: await createGarleanList(`${name}`, [...items, ...dyes]),
     };
   } catch (error) {
-    appLogger.error('Error while generating import link for GarLandTools', error);
+    appLogger.error({ msg: 'Error while generating import link for GarLandTools', error });
     throw error;
   }
 });
