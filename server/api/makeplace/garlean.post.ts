@@ -48,8 +48,8 @@ export default defineEventHandler(async (event) => {
         }
       }
       appLogger.info({ msg: 'Items enriched !', items: enrichedItems.length, dyes: enrichedDyes.length });
-    } catch (error) {
-      appLogger.error({ msg: 'Error while enriching items', error });
+    } catch (err) {
+      appLogger.error({ msg: 'Error while enriching items', err });
     }
 
     let { name } = getQuery(event);
@@ -60,13 +60,15 @@ export default defineEventHandler(async (event) => {
       name = `mptc-${new Date().toISOString()}`;
     }
 
+    const link = await createGarleanList(`${name}`, [...items, ...dyes]);
+    appLogger.info('Import link generated for GarLandTools...');
     return {
       dyes: enrichedDyes || dyes,
       items: enrichedItems || items,
-      link: await createGarleanList(`${name}`, [...items, ...dyes]),
+      link,
     };
-  } catch (error) {
-    appLogger.error({ msg: 'Error while generating import link for GarLandTools', error });
-    throw error;
+  } catch (err) {
+    appLogger.error({ msg: 'Error while generating import link for GarLandTools', err });
+    throw err;
   }
 });
