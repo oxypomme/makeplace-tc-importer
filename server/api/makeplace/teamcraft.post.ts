@@ -48,17 +48,19 @@ export default defineEventHandler(async (event) => {
         }
       }
       appLogger.info({ msg: 'Items enriched !', items: enrichedItems.length, dyes: enrichedDyes.length });
-    } catch (error) {
-      appLogger.error({ msg: 'Error while enriching items', error });
+    } catch (err) {
+      appLogger.error({ msg: 'Error while enriching items', err });
     }
 
+    const link = getImportLink([...items, ...dyes]);
+    appLogger.info('Import link generated for TeamCraft...');
     return {
       dyes: enrichedDyes || dyes,
       items: enrichedItems || items,
-      link: getImportLink([...items, ...dyes]),
+      link,
     };
-  } catch (error) {
-    appLogger.error({ msg: 'Error while generating import link for TeamCraft', error });
-    throw error;
+  } catch (err) {
+    appLogger.error({ msg: 'Error while generating import link for TeamCraft', err });
+    throw err;
   }
 });
