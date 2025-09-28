@@ -1,0 +1,16 @@
+name: Renovate
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4.2.2
+  
+      - name: Renovate 🎨
+        uses: renovatebot/github-action@v43.0.13
+        with:
+          token: ${{ secrets.RENOVATE_TOKEN }}
+          configurationFile: ./.renovaterc.actions
